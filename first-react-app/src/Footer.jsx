@@ -3,7 +3,7 @@ function Footer() {
 
     return (
         <footer>
-            <p>&copy; Pier's first website in react</p>
+            <p>&copy; {new Date().getFullYear()} Pier's first website in react</p>
         </footer>
     );
 }
