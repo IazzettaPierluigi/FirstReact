@@ -4,6 +4,8 @@ import Food from "./Food";
 import Card from "./Card";
 import Student from "./Student";
 import UserGreeting from "./UserGreeting";
+import List from "./List";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Header />
       <UserGreeting isLoggedIn={true} username="Pier" />
       {/* <Student name="Giovanni" age={25} isStudent={false} /> */}
+      <List />
 
       <Footer />
     </>
